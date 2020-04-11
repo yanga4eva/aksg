@@ -1,12 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import logo from './logo.svg';
-import './App.css';
-import Institutions from './Routes/institutions'
-import Persons from './Routes/persons'
-import Locations from './Routes/locations'
-import Dashboard from './Routes/dashboard'
-import Nav from './Routes/nav'
+import Institutions from './component/institutions'
+import Persons from './component/persons'
+import Locations from './component/locations'
+import Dashboard from './component/dashboard'
+import Nav from './component/nav'
 
 function App() {
   return (

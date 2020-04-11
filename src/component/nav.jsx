@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import logo from './Assets/img/logo.png'
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
 
@@ -28,7 +26,7 @@ class Kheader extends Component {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link href="#home"><Link to="/dashboard">Home</Link></Nav.Link>
+						<Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
 						<Nav.Link href="#link"><Link to="/persons">People</Link></Nav.Link>
                         <NavDropdown title="Parastatals" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1"><Link to="/persons">People</Link></NavDropdown.Item>
@@ -45,10 +43,10 @@ class Kheader extends Component {
                             <NavDropdown.Item href="#action/3.3">Tetiary</NavDropdown.Item>
                             </NavDropdown>    
 					</Nav>
-                    <Form inline>
+                    {/* <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-success">Search</Button>
-    </Form>
+    </Form> */}
 				</Navbar.Collapse>
 			</Navbar>
 

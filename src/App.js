@@ -18,8 +18,7 @@ function App() {
       <Route path="/institutions" component={Institutions} />
       <Route path="/persons" component={Persons} />
       <Route path="/locations" component={Locations} />
-
-    </Router>
+</Router>
   );
 }
 

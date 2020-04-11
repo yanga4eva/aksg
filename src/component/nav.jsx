@@ -26,8 +26,8 @@ class Kheader extends Component {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
-						<Nav.Link href="#link"><Link to="/persons">People</Link></Nav.Link>
+						<Link to="/">Home</Link>
+						<Link to="/persons">People</Link>
                         <NavDropdown title="Parastatals" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1"><Link to="/persons">People</Link></NavDropdown.Item>
                             <NavDropdown.Divider />

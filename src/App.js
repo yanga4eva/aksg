@@ -14,7 +14,7 @@ function App() {
       <Nav />
       <br />
     
-      <Route exact path="/" component={Dashboard} />
+      {/* <Route exact path="/" component={Dashboard} /> */}
       <Route path="/institutions" component={Institutions} />
       <Route path="/persons" component={Persons} />
       <Route path="/locations" component={Locations} />
